@@ -1,0 +1,141 @@
+{"title":"Project Settings",
+"items":[
+{
+  "id": "1",
+  "name": "General Settings",
+  "fields" : [
+			{
+				"id":"title",
+				"fieldName":"Project Title",
+				"fieldType":"text",
+				"fieldValue":"string"
+				
+			},
+			{
+				"id":"version",
+				"fieldName":"Version",
+				"fieldType":"text",
+				"fieldValue":"number" 
+				
+			}
+			
+  ]
+},
+{
+  "id": "2",
+  "name": "Font",
+  "fields" : [
+			{
+				"id":"family",
+				"fieldName":"Font Family",
+				"fieldType":"text",
+				"fieldValue":"number"
+				
+			},
+			{
+			
+				"id":"spacing",
+				"fieldName":"Line Spacing",
+				"fieldType":"text",
+				"fieldValue":"number"
+				
+			},
+			{
+			
+				"id":"faimly",
+				"fieldName":"Font Size",
+				"fieldType":"option",
+				"fieldValue":"n",
+				"fieldOptions":[{"optionName":"12","optionValue":12},{"optionName":"14","optionValue":14}]
+				
+			}
+			
+
+			]
+			
+},
+{
+  "id": "3",
+  "name": "Color",
+  "fields" : [
+			{
+				"id":"monochrome",
+				"fieldName":"Monochrome",
+				"fieldType":"toggle",
+				"fieldValue":"boolean"
+				
+			},
+			{
+			
+				"id":"color",
+				"fieldName":"Palette available",
+				"fieldType":"option",
+				"fieldValue":"number",
+				"fieldOptions":[{"optionName":"Black","optionValue":1},{"optionName":"Blue","optionValue":2}]
+				
+			}
+			
+
+			]
+},
+{
+  "id": "4",
+  "name": "Background Settings",
+  "fields" : [
+			{
+				"id":"image",
+				"fieldName":"Image URL",
+				"fieldType":"text",
+				"fieldValue":"string"
+				
+			},
+			{
+				"id":"imagetext",
+				"fieldName":"Image Text",
+				"fieldType":"text",
+				"fieldValue":"string"
+				
+			} 
+
+			]
+  
+},
+{
+  "id": "5",
+  "name": "KeyMap",
+  "fields" : [
+			{
+				"id":"allowShortcuts",
+				"fieldName":"Allow Shortcuts",
+				"fieldType":"toggle",
+				"fieldValue":"boolean"
+				
+			}
+
+			]
+  
+},
+{
+  "id": "6",
+  "name": "Code Style",
+  "fields" : [
+			{
+				"id":"hardWrap",
+				"fieldName":"Hard Wrap at",
+				"fieldType":"text",
+				"fieldValue":"string"
+				
+			},
+			{
+				"id":"lineSeprator",
+				"fieldName":"Line Separator",
+				"fieldType":"option",
+				"fieldValue":"number",
+				"fieldOptions":[{"optionName":"System Dependent","optionValue":1},{"optionName":"Unix","optionValue":2},{"optionName":"MAC","optionValue":2}]
+				
+			}
+
+			]
+  
+}]
+}
